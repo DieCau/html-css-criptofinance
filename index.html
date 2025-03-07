@@ -50,8 +50,8 @@
     <!-- Navbar Fin -->
   </header>
 
+  <!-- Main Inicio -->
   <main>
-    <!-- Main Inicio -->
     <section id="carouselCryptoFin" class="carousel slide">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselCryptoFin" data-bs-slide-to="0" class="active bg-light"
@@ -67,25 +67,25 @@
         <div class="carousel-item active">
           <img src="./img/banner/atencion.jpg" class="d-block w-100 img-carousel-crypto" alt="..." />
           <div class="carousel-caption d-none d-md-block text-light bg-dark bg-opacity-75">
-            <h5>First slide label</h5>
+            <h5>Revoluciona tus inversiones</h5>
             <p>
-              Some representative placeholder content for the first slide.
+              Combina lo mejor de las criptomonedas y las finanzas tradicionales.
             </p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./img/banner/crypto.jpeg" class="d-block w-100 img-carousel-crypto" alt="..." />
           <div class="carousel-caption d-none d-md-block text-light bg-dark bg-opacity-75">
-            <h5>Second slide label</h5>
+            <h5>Tu dinero, siempre protegido</h5>
             <p>
-              Some representative placeholder content for the second slide.
+              Operamos con los más altos estándares de seguridad y transparencia.
             </p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="./img/banner/dolar.jpg" class="d-block w-100 img-carousel-crypto" alt="..." />
           <div class="carousel-caption d-none d-md-block text-light bg-dark bg-opacity-75">
-            <h5>Third slide label</h5>
+            <h5>Expande tus oportunidades</h5>
             <p>
               Some representative placeholder content for the third slide.
             </p>
@@ -94,9 +94,9 @@
         <div class="carousel-item">
           <img src="./img/banner/inversion.jpg" class="d-block w-100 img-carousel-crypto" alt="Imagen de inversion" />
           <div class="carousel-caption d-none d-md-block text-light bg-dark bg-opacity-75">
-            <h5>Third slide label</h5>
+            <h5>Inteligencia financiera en acción</h5>
             <p>
-              Some representative placeholder content for the third slide.
+              Usa herramientas avanzadas para maximizar tu rentabilidad.
             </p>
           </div>
         </div>
@@ -278,8 +278,48 @@
         </article>
       </div>
     </section>
-    <!-- Main Fin -->
   </main>
+  <!-- Main Fin -->
+
+  <!-- Modal Inicio -->
+  <section class="modal fade" id="modalCrearCuenta" tabindex="-1" aria-labelledby="modalCrearCuentaLabel"
+    aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title fs-5" id="modalCrearCuentaLabel">Crea tu cuenta</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Completa los siguientes datos para crear una cuenta:</p>
+          <form id="formCrearCuenta" autocomplete="off">
+            <div class="mb-3">
+              <label for="nombreApellido" class="form-label">Nombre y apellido *</label>
+              <input type="text" class="form-control" id="nombreApellido" placeholder="Ej: Juan Perez" required />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email *</label>
+              <input type="email" class="form-control" id="email" placeholder="Ej: juanperez@mail.com" required />
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Contraseña *</label>
+              <input type="password" class="form-control" id="password" required />
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Repetir contraseña *</label>
+              <input type="password" class="form-control" id="password" required />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-primary" type="submit" form="formCrearCuenta">
+            Enviar
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Modal Fin -->
 
   <footer class="bg-dark-subtle py-3">
     <!-- footer Inicio -->

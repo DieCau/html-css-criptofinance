@@ -17,6 +17,11 @@ main {
 
 .marca {
   font-family: "BlackHanSans", sans-serif;
+  color: #00a6e7;
+}
+
+.bg-marca {
+  background-color: #053575;
 }
 
 .img-carousel-crypto {
